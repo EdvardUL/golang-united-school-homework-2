@@ -9,11 +9,11 @@ import "math"
 // CalcSquare(10.0, SidesTriangle)
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
-const SidesTriangle int = 3
-const SidesSquare int = 4
-const SidesCircle int = 0
-
 type intCustomType int
+
+const SidesTriangle intCustomType = 3
+const SidesSquare intCustomType = 4
+const SidesCircle intCustomType = 0
 
 func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 	if sidesNum == 3 {
